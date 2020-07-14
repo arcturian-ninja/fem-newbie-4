@@ -67,10 +67,11 @@ input,.btn_submit{
     height: auto;
 }
 header{
-    padding: 2rem;
+    padding: 2.2rem;
 }
 .logo{
     width: 35%;
+    height: 6ex;
 }
 h1.coming-soon{
     font-size: 7ex;
@@ -123,9 +124,10 @@ p,.error-box{
         text-align: unset;
         padding-top: 4rem;
     }
+    h1.coming-soon{
+        font-size: 10ex;
+    }
     .input-wrapper{
         margin-top: 2rem;
     }
-    input{
-   }
 }
