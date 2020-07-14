@@ -1,6 +1,7 @@
-var btnSubmit = document.getElementsByName('btn_submit')[0];
+var form = document.getElementsByName('submit-email')[0];
 
-btnSubmit.addEventListener('click',function(ev){
+form.addEventListener('submit',function(ev){
+    ev.preventDefault();
     validateForm();
 })
 
