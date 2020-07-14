@@ -25,7 +25,8 @@ main{
 }
 .input-wrapper{
     height: 3rem;   
-    margin:2rem auto;
+    margin-top:2rem;
+    margin:auto;
     width:100%;
 }
 .btn_submit{
